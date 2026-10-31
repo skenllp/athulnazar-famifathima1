@@ -7,7 +7,7 @@
 
   /* ---------- config ---------- */
   const WEDDING_TIME = new Date('2026-11-15T18:00:00+05:30').getTime(); // 6:00 PM IST
-  const MUSIC_SRC = 'assets/song.mp3';     // drop a file here to enable the music button; '' disables it
+  const MUSIC_SRC = 'assets/music.mp3';     // drop a file here to enable the music button; '' disables it
 
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
   const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
