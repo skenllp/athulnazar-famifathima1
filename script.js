@@ -201,8 +201,8 @@
 
   tapBtn.addEventListener('click', () => openNow());
 
-  // if the guest doesn't tap the seal, the invitation opens by itself after 6 seconds
-  autoTimer = setTimeout(() => openNow(), 6000);
+  // if the guest doesn't tap the seal, the invitation opens by itself after 3 seconds
+  autoTimer = setTimeout(() => openNow(), 3000);
 
   startVideo();
 
